@@ -42,7 +42,7 @@ public class EarthquakeAdapter extends ArrayAdapter<Earthquake> {
         View listItemView = convertView;
         if (listItemView == null) {
             listItemView = LayoutInflater.from(getContext()).inflate(
-                    R.layout.list_item, parent, false);
+                    R.layout.earthquake_list_item, parent, false);
         }
 
         // Find the earthquake at the given position in the list of earthquakes
